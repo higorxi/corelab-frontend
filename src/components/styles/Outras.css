@@ -1,0 +1,25 @@
+.Outras {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tituloOutras {
+  margin: 1rem;
+}
+
+.rowOutras {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.itemOutras {
+  width: calc(50% - 2rem);
+  margin: 1rem;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}

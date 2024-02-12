@@ -1,0 +1,48 @@
+.Card {
+  width: 28vw;
+  height: 55vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 3px 0px #00000040;
+  border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.tituloCard {
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.descricaoCard {
+  font-size: small;
+  font-weight: 400;
+  color: #4f4f4d;
+  align-items: center;
+}
+
+.actionsCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.IoMdColorFill {
+  margin-left: 0.3rem;
+}
+
+@media (max-width: 767px) {
+  .Card {
+    width: 100%;
+  }
+}
